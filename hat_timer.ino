@@ -1,8 +1,8 @@
 const int stretchDuration = 45; // in seconds
 #define restDuration 15 // in seconds
 
-const int redLED = 0;
-const int greenLED = 1;
+const int redLED = 1;
+const int greenLED = 0;
 
 void setup() {
   pinMode(redLED, OUTPUT);
